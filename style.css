@@ -7,6 +7,7 @@
 #conteiner{
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .mainlogo {
@@ -33,7 +34,6 @@ padding:30px;
 }
 
 .conteiner-button > button{
-    text-align: center;
     font-size:20px;
     border-radius: 5px;
     border: 1px solid lightgrey;
@@ -50,16 +50,123 @@ padding:30px;
 
   /* add rulez main */
 
-  .rowitem{
+ .rowitem{
     font-family: Arial, Helvetica, sans-serif;
-    
-    
     text-align: center;
     margin:0 auto;
     width: 80%;
-    color: rgba(0, 0, 0, 0.849);
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.596);
 }
 
+.textmain{
+    font-size:40px ;
+    
+}
+
+.underarrow::before{
+    content: ' \25BC';
+   
+}
+
+.true{
+    display:inline-block;
+    border-radius:30px;
+    color: green;
+    border: 2px; 
+    padding: 6px 
+}
+
+.list{
+    font-size: 20px;
+}
+
+.editorialbox{
+    background-color: rgba(13, 87, 172, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+
+.q1goals{
+    background-color: rgba(68, 2, 99, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+.recruiting{
+    background-color: rgba(29, 129, 20, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+.Folse{
+    display:inline-block;
+    border-radius:30px;
+    color: rgb(216, 5, 5);
+    border: 2px; 
+    padding: 6px 
+}
+
+.mobile{
+    background-color: rgba(165, 136, 6, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+.website{
+    background-color: rgba(206, 91, 158, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+.sales{
+    background-color: rgba(55, 173, 114, 0.863);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+    height: 80px ;
+    line-height: 100%;
+    vertical-align:middle;
+}
 
 
 
