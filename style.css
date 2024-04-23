@@ -5,7 +5,7 @@
 }
 /* conteiner build rulez */
 #conteiner{
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -18,16 +18,46 @@
 .logotext{
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 100%;
+    vertical-align:middle;
 }
 
 /* nav build rulez */
-.conteiner-button {
+.conteiner-button{
+margin: 0 auto;
 text-align: center;
-background-color: rgb(204, 202, 202);
+background-color:rgba(235, 229, 229,0.5);
 border-radius: 50px;
-margin:auto;
-width: 100%;
-padding:20px
+width: 80%;
+padding:30px;
+}
+
+.conteiner-button > button{
+    text-align: center;
+    font-size:20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+  .conteiner-blue{
+    background-color: rgba(13, 87, 172, 0.863);
+    color: white;
+}
+
+  .conteiner-white{
+    color: lightgray;
+} 
+
+  /* add rulez main */
+
+  .rowitem{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    text-align: center;
+    margin:0 auto;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.849);
 }
 
 
