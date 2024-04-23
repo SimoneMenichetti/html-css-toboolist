@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: white;
+}
+/* conteiner build rulez */
+#conteiner{
+    width: 80%;
+    margin: 0 auto;
+}
