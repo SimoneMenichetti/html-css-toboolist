@@ -3,10 +3,16 @@
     margin: 0 auto;
     background-color: white;
 }
+
+body {
+    background-color: lightgray;
+}
 /* conteiner build rulez */
-#conteiner{
+#container{
     width: 80%;
     margin: 0 auto;
+    background-color: lightgrey;
+    padding-bottom: 20px;
     
 }
 
@@ -24,149 +30,146 @@
 }
 
 /* nav build rulez */
-.conteiner-button{
-margin: 0 auto;
-text-align: center;
-background-color:rgba(235, 229, 229,0.5);
-border-radius: 50px;
-width: 80%;
-padding:30px;
+.container-button{
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 80%;
+    padding:20px;
+    margin-top: 50px;
 }
 
-.conteiner-button > button{
+.container-button > button{
     font-size:20px;
     border-radius: 5px;
     border: 1px solid lightgrey;
 }
 
-  .conteiner-blue{
+  .container-blue{
     background-color: rgba(13, 87, 172, 0.863);
     color: white;
 }
 
-  .conteiner-white{
+  .container-white{
     color: lightgray;
 } 
 
   /* add rulez main */
 
- .rowitem{
+ .listcontainer{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     margin:0 auto;
+    margin-bottom: 10px;
     width: 80%;
     padding: 30px;
-    color: rgba(0, 0, 0, 0.596);
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+   
+    
 }
 
-.textmain{
-    font-size:40px ;
-    
+.listcontainer li{
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.listcontainer div{
+    padding-bottom: 10px; 
 }
 
 .underarrow::before{
     content: ' \25BC';
-   
+    display: inline-block
+    
 }
+.underarrow{
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+
 
 .true{
     display:inline-block;
-    border-radius:30px;
+    border-radius:10px;
     color: green;
-    border: 2px; 
-    padding: 6px 
+    border:solid green 2px; 
+    padding: 3px;
+    font-size: 15px;
+    line-height: 100%;
+    vertical-align:middle;
+}
+
+.true::before {
+    content: "\2713";
+}
+
+.false{
+    display:inline-block;
+    border-radius:10px;
+    color: red;
+    border:solid red 2px; 
+    padding: 3px;
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align:middle;
+   
+}
+
+.false::before{
+    content: "x";
 }
 
 .list{
     font-size: 20px;
 }
 
-.editorialbox{
+.tag{
+    font-size: 10px;
+    padding: 6px;
+    line-height: 100%;
+    vertical-align:middle;
+    border-radius: 6px;
+    color: white;
+}
+
+.tag.blue{
     background-color: rgba(13, 87, 172, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+    
 }
 
-
-.q1goals{
+.tag.purple{
     background-color: rgba(68, 2, 99, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+ 
 }
 
-.recruiting{
+.tag.green{
     background-color: rgba(29, 129, 20, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+  
 }
 
-.Folse{
-    display:inline-block;
-    border-radius:30px;
-    color: rgb(216, 5, 5);
-    border: 2px; 
-    padding: 6px 
-}
-
-.mobile{
+.tag.yellow{
     background-color: rgba(165, 136, 6, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+   
 }
 
-.website{
+.tag.pink{
     background-color: rgba(206, 91, 158, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+   
 }
 
-.sales{
+.tag.lightgreen{
     background-color: rgba(55, 173, 114, 0.863);
-    color: white;
-    border-radius: 10px;
-    border: 1px solid lightgrey;
-    text-align: center;
-    font-size: 10px;
-    padding: 6px;
-    height: 80px ;
-    line-height: 100%;
-    vertical-align:middle;
+ 
 }
 
+.toboolist{
+   padding: 0; 
+}
 
+.toboolist li{
+    list-style-type: none;
+}
 
